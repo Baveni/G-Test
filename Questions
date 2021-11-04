@@ -1,0 +1,101 @@
+1. What bug reporting tools have you used in the past and what do you recommend the most and
+why?
+
+I used Trello and JIRA. I would recommend JIRA because it's free to use for up to 10 people and has the most intuitive and
+straight formward design and good ways of ticket atomization,but has the downside of being complex to use if more
+advanced setup is needed.
+
+2. Are you familiar with test scenarios? Have you ever used any tool for that? How would you
+introduce writing test scenarios for our apps?
+
+I used XRay for writing test cases and I used Katalon recorder on chrome.
+I would introduce both manual and automated test cases
+
+3. How important is writing test scenarios for you? Why?
+
+Writing test scenarios is very important to me because I believe every SW/website or HW should have none to minimal defects as
+possible when released so that the end consumer can enjoy the full experience of their SW/website or HW. For example,
+if I am interested in some SW that would help me more productive and I take the free trial and notice that some of the
+key functions are not working as intended and the SW not in beta release I wouldn't buy that software even though I see
+potential in it.
+
+4. Assume you find a problem while testing the application, what would be your recommended
+approach to get that problem resolved?
+
+I would first report a defect with short description, as many details as possible, environment and steps do reproduce.
+The defect report would also contain possible solution to the problem.
+If the defect would be in my capability to resolve and I would have access to the source code, I wold resolve the
+defect myself with developers input on how to best resolve the defect.
+
+5. You find and report a problem within the application, but the developer doesn’t believe this to be
+a problem and resolve the task as won't fix? How would you deal with this scenario?
+
+I would listen to his explanation as why he believes this is not a problem and I would try to find a scenario
+in which this problem could back fire. If no reasonable scenario could be found, I would negotiate for the problem to
+go to backlog and when there is technical debt to be payed, someone would look at it and resolve it.
+
+6. It is late in the evening. You are responsible for the GO/NO GO decision. The workflow is very
+strict and there are numerous tasks to be done:
+• Verifying bugs found in the very last stage of testing
+• One round of regression testing, etc.
+• Conclude the testing
+• Filling out the report,
+• Check everything is ready for release. You just discovered that some part of the app doesn't feel right - UI/UX it's not catchy enough.
+What do you do? Why?
+
+I would talk to the lead UI/UX and if I have and idea of making it better I would propose this to UI/UX lead and we could
+see if something can be done right away or in the next release.
+If all the e2e,A&B and acceptance testing was done on UI/UX and was approved and the issue I find with UI/UX is not a blocker for release
+I would as mentioned above, UI/UX can always be improved.
+
+You know if following the procedure the app won’t be released on time, but timing is everything on
+this release. What do you do? Why?
+
+I would perform smoke test and focus on the parts of the SW that caused issues during development, if possible I would
+try to get anyone from the company that could help test, even if it's minor test that can be done by the person in his
+circle of knowledge or area of expertise. More complex tests can be done by tester or development team.
+
+
+7. Assume you are the QA lead for a new major product with a set project deadline. Briefly describe
+how you would go about the following:
+• Implementing QA process into the project
+
+I would create teams and divide them into automation and manual testing teams and point senior and or lead team members who
+would attend meetings and report troubles or issues their team is facing or any other requirements that they would have. Few people
+from both teams would be appointed on testing new builds so that defects can be found as early as possible in QA cycle.
+would test new builds and report problems as they are found.
+
+• Ensuring product successfully passes QA
+
+I would perform regular smoke, black and white box testing and regression testing of the project. I would work
+closely with the development and project management team so edge cases and changes in the project structure could be
+clearly communicated to the teams testing the project.
+
+• Making sure the project deadline is met.
+
+I would define milestones that need to achieved for each segment of project development and would try to have effective
+communication with the team so everyone knows what needs to be done and when.
+
+8. Assume that only one area of the application has been changed, how much time do you think
+should be spent testing each segment of the app (new functionality, core functionality, all
+functionality, etc.)? Give an estimate in % for each segment and explain your decision.
+
+If core functionality was changed I would divide the time as follows:
+
+40% on core
+30% all functionality
+30% new functionality
+
+If core was changed, and presumably core is already well tested I would focus on all functionality and new functionality equally
+with more focus being on core.
+I think it would really be up to the % of the change that it was made.
+
+
+9. Are you familiar with any test automation tool? Have you ever used automated testing in apps?
+How would you introduce automated testing to our apps?
+
+I am familiar with selenium, although I haven't used it much- I used automation on my former position, where I started to automate manual
+test cases whit python. Currently I only automate simple daily tasks with powershell or batch scripts.
+
+If manual tests are already written I would review them and start automating them. I would also start with most common and simple
+website tests and work towards automating more advanced and complex tests.

@@ -1,0 +1,44 @@
+Bug name: Game store site contains dead url for data vault site
+Issue description:
+    - Clicking on "DATA VAULT" button from "GAME STORE" is loading url to infinity. The site doesn't load.
+      Navigating from other sites clicking "DATA VAULT" works as expected and the site loads normally.
+      Anchor link is missing the url for "GAME STORE" url.
+Steps to reproduce:
+    - Navigate to https://gamanza.com/
+    - Click on "GAME STORE"
+    - Click on "DATA VAULT"
+    - Observe site loading
+    - Click on "GAMIFICATION" and wait for site to load, click on "DATA VAULT", site loads.
+Environment:
+    - Version 94.0.4606.81 (Official Build) (64-bit)
+Severity: HIGH (High/Medium/Low)
+Priority: HIGH (High/Medium/Low)
+
+
+Bug name: Contact form submit button is not functioning
+Issue description:
+    - Populating contact form and clicking submit isn't functioning
+Steps to reproduce:
+    - Navigate to contact form
+    - Populate form
+    - Click on submit
+    - Observe result
+Environment:
+    - Version 94.0.4606.81 (Official Build) (64-bit)
+Severity: HIGH (High/Medium/Low)
+Priority: HIGH (High/Medium/Low)
+
+
+Bug name: Email received from contact form does not contain name field
+Issue description:
+    - Receiving email from contact form doest not contain name field, although it was entered into the form
+Steps to reproduce:
+    - Navigate to contact forum and populate all the field
+    - Click on submit
+    - Check email
+    - Observe email structure, name field is missing
+Environment:
+    - Version 94.0.4606.81 (Official Build) (64-bit)
+Severity: HIGH (High/Medium/Low)
+Priority: HIGH (High/Medium/Low)
+

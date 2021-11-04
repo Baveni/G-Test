@@ -1,0 +1,26 @@
+1 Scope of test:
+    - Test if all images are properly loaded and if all imaged have their "alt srcset" attribute.
+Test:
+    - Navigate to https://gamanza.com/digital-data-vault/
+    - Check if all images are loaded when url is opened
+    - Use dev tools console and check if all images have their "alt srcset" attribute.
+
+2 Scope of test:
+    - Test if get in touch form works as expected
+Test:
+    - navigate to https://gamanza.com/contact/
+    - Populate all fields and submit message
+        - Check if email was received
+        - Check email structure
+    - Populate email field with non-valid email
+    - Check form fields if they're sanitized for injection of harmuful code
+
+3 Scope of test
+    - Test website cookies
+Test:
+    - Test if session is deleted when cache is cleared or when cookie expire
+
+4 Scope of test:
+    - Test the website on all main browsers for inconsistencies
+Test:
+    - Smoke test website on all main browsers.
